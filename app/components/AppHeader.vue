@@ -3,9 +3,31 @@
     <nav class="absolute top-0 left-0 right-0 z-50 px-8 py-6">
       <div class="max-w-7xl mx-auto flex items-center justify-between">
         <div class="flex items-center space-x-8">
-          <a href="#" class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase">Shop</a>
-          <a href="#" class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase">Our Story</a>
-          <a href="#" class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase">Blog</a>
+            <NuxtLink
+  to="/"
+  class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase"
+>
+  Home
+</NuxtLink>
+<NuxtLink
+  to="/"
+  class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase"
+>
+  About
+</NuxtLink>
+
+<NuxtLink
+  to="/"
+  class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase"
+>
+  Shop
+</NuxtLink>
+<NuxtLink
+  to="/blog"
+  class="text-sm tracking-wider text-white/90 hover:text-white transition-colors uppercase"
+>
+  Blog
+</NuxtLink>
         </div>
         
         <div class="absolute left-1/2 transform -translate-x-1/2">
