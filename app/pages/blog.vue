@@ -30,38 +30,21 @@
       <!-- Blog Grid -->
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Blog Post 1 -->
-        <div class="border-b border-gray-100 pb-8">
-          <div class="h-48 bg-gray-100 rounded-lg mb-4 overflow-hidden">
-            <NuxtImg 
-              src="/assets/phi-zulmaury-saavedra.webp" 
-              alt="Blog Post 1"
-              class="w-full h-full object-cover"
-            />
-          </div>
-          <div class="text-sm text-gray-500 mb-2">November 2, 2023</div>
-          <h3 class="text-xl font-serif font-normal text-gray-900 mb-3">Understanding Your Skin's Natural Rhythm</h3>
-          <p class="text-gray-600 mb-4">Learn how to work with your skin's natural circadian rhythm for optimal results from your skincare routine.</p>
-          <NuxtLink to="/blog/skin-natural-rhythm" class="text-[#D4C5A0] hover:text-[#C4B590] text-sm font-medium">
-            Read More →
-          </NuxtLink>
-        </div>
+        <BlogCard
+          image="/assets/phi-zulmaury-saavedra.webp"
+          date="2023-11-02"
+          title="Understanding Your Skin's Natural Rhythm"
+          excerpt="Learn how to work with your skin's natural circadian rhythm for optimal results from your skincare routine."
+          slug="skin-natural-rhythm"
+        />
 
         <!-- Blog Post 2 -->
-        <div class="border-b border-gray-100 pb-8">
-          <div class="h-48 bg-gray-100 rounded-lg mb-4 overflow-hidden">
-            <div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400">
-              <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="text-sm text-gray-500 mb-2">November 10, 2023</div>
-          <h3 class="text-xl font-serif font-normal text-gray-900 mb-3">The Power of Adaptogenic Ingredients</h3>
-          <p class="text-gray-600 mb-4">Discover how adaptogens can help your skin better respond to stress and environmental aggressors.</p>
-          <NuxtLink to="/blog/adaptogenic-ingredients" class="text-[#D4C5A0] hover:text-[#C4B590] text-sm font-medium">
-            Read More →
-          </NuxtLink>
-        </div>
+        <BlogCard
+          date="2023-11-10"
+          title="The Power of Adaptogenic Ingredients"
+          excerpt="Discover how adaptogens can help your skin better respond to stress and environmental aggressors."
+          slug="adaptogenic-ingredients"
+        />
       </div>
     </div>
   </div>

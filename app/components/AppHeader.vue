@@ -31,7 +31,7 @@
         </div>
         
         <div class="absolute left-1/2 transform -translate-x-1/2">
-          <NuxtImg src="/assets/phi-logo.webp" alt="" />
+          <NuxtImg src="/assets/phi-logo-transparent-bg.png" alt="" />
         </div>
         
         <div class="flex items-center space-x-6">
