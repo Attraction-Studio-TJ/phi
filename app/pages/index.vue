@@ -5,14 +5,14 @@
       <!-- Background Images -->
       <div class="absolute inset-0 flex">
         <NuxtImg
-          src="~/assets/phi-woman.webp"
+          src="/assets/phi-woman.webp"
           alt="Hero left"
           class="w-1/2 h-full object-cover"
           width="800"
           height="1200"
         />
         <NuxtImg
-          src="~/assets/phi-zulmaury-saavedra.webp"
+          src="/assets/phi-zulmaury-saavedra.webp"
           alt="Hero right"
           class="w-1/2 h-full object-cover"
           width="800"
