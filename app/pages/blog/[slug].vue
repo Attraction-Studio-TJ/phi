@@ -13,6 +13,8 @@
 </template>
 
 <script setup>
+  const article = await $content('blog', route.params.slug).fetch()
+
 const route = useRoute()
 
 const { data: post } = await useAsyncData(() =>

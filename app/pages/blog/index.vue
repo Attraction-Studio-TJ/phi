@@ -29,32 +29,23 @@
       <!-- Blog Grid -->
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Blog Post 1 -->
-        <BlogCard
-          image="/assets/phi-zulmaury-saavedra.webp"
-          date="2023-11-02"
-          title="Understanding Your Skin's Natural Rhythm"
-          excerpt="Learn how to work with your skin's natural circadian rhythm for optimal results from your skincare routine."
-          slug="skin-natural-rhythm"
-        />
+      
 
         <!-- Blog Post 2 -->
         <BlogCard
-          date="2023-11-10"
-          title="The Power of Adaptogenic Ingredients"
-          excerpt="Discover how adaptogens can help your skin better respond to stress and environmental aggressors."
-          slug="adaptogenic-ingredients"
-        />
+        v-for="article in articles"
+        :key="article.slug"
+        :title="article.title"
+        :excerpt="article.description"
+        :date="article.date"
+        :slug="article.slug"
+        :image="article.image"
+      />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-// You can add any component logic here
-useHead({
-  title: 'Journal - PHI',
-  meta: [
-    { name: 'description', content: 'Discover the latest in clean beauty, skincare rituals, and wellness insights from PHI experts.' }
-  ]
-})
+import BlogCard from '~/components/BlogCard.vue'
 </script>

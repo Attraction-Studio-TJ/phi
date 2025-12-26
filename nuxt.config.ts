@@ -14,6 +14,19 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   ui: {
     prefix: 'Nuxt',
+  },
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth:3,
+          searchDepth: 2,
+        },
+        remarkPlugins: {
+          "remark-reading-time": {}
+        }
+      }
+    }
   }
 
 })
