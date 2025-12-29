@@ -1,7 +1,11 @@
 <template> 
     <AppHeader />
     <NuxtPage />
+    <BlogPostGrid />
+    <NewsSection />
     <FooterSection />
+
+    
 </template>
 
 <script setup>
