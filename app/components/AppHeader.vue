@@ -1,5 +1,4 @@
 <template>
-    
     <nav class="absolute top-0 left-0 right-0 z-50 px-8 py-6">
       <div class="max-w-7xl mx-auto flex items-center justify-between">
         <div class="flex items-center space-x-8">
