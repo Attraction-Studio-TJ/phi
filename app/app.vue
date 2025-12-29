@@ -1,10 +1,12 @@
 <template> 
     <AppHeader />
     <NuxtPage />
+    <FooterSection />
 </template>
 
 <script setup>
 import AppHeader from '~/components/AppHeader.vue'
+import FooterSection from '~/components/FooterSection.vue'
 </script>
 
 <style scoped>
