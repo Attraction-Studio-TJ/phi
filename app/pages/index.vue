@@ -49,19 +49,15 @@
       <!-- Header -->
       <div class="flex items-center gap-4 ml-8 mb-10 md:mb-14">
         <span class="w-3 h-3 rounded-full bg-[#2b201a]"></span>
-        <h2 class="text-2xl md:text-3xl font-light tracking-wide text-[#2b201a]">
-          best sellers
-        </h2>
-        <button
-          class="ml-4 text-2xl md:text-3xl font-light tracking-wide text-[#b7a9a0] hover:text-[#2b201a] transition-colors"
-        >
-          sets
-        </button>
+        <h2 class="text-4xl md:text-5xl font-serif font-light text-[#2b201a] mb-6">
+              Best Sellers
+            </h2>
+      
       </div>
 
       <!-- Products grid -->
       <div
-        class="grid grid-cols-2 lg:grid-cols-4 border-t border-[#f0dfd2] text-center text-sm md:text-base"
+        class="grid grid-cols-2 lg:grid-cols-4 border-t border-b border-[#f0dfd2] text-center text-sm md:text-base"
       >
         <div
           v-for="product in products"
@@ -145,7 +141,7 @@
   <!-- Top Paragraph -->
   <div>
     <p class="text-[#4a4a4a] leading-relaxed max-w-md">
-      We craft impactful strategies, bold and innovative designs, and compelling brand messages to help businesses grow, connect with their audience, and stand out in an increasingly competitive market.
+      Improve your skin barrier function using a unique combination of clinical strength ingredients essential to the role of skin health.
     </p>
   </div>
 
@@ -183,7 +179,7 @@
 
 
   <!-- about us -->
-   <section class="relative bg-[#333333] py-16 md:py-24 overflow-hidden">
+   <section class="relative bg-[#333333] py-16 md:py-44 overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 opacity-60">
       <img
@@ -204,7 +200,7 @@
             About us
           </h2>
           <p class="text-white/90 leading-relaxed max-w-lg text-sm md:text-base">
-            We are a team of passionate creatives, strategists, and innovators dedicated to transforming brands with bold ideas and impactful solutions.
+            Phi Cosmeceutical is a boutique skincare company who work alongside a leading medical, surgical and cosmetic dermatology practice in Christchurch, New Zealand. Phi Cosmeceutical recognises that caring for your skin can be a bit overwhelming due to the abundance of products on the market which are associated with sometimes confusing beauty claims. 
           </p>
         </div>
 
@@ -289,18 +285,18 @@ const products = [
 
 const features = [
   'Guaranteed Results',
-  'Time Efficiency',
-  'Competitive Edge',
-  'Market Adaptability',
-  'Lasting Impact',
+  'No parabens, artificial dyes or fragrances',
+  'Results-driven',
+  'High quality ingredients',
+  'Optimal outcomes',
 ]
 
 const aboutFeatures = [
-  'Years of expertise in branding',
-  'Strategies customized to your needs',
-  'Fresh and innovative ideas',
-  'Focused on measurable success',
-  'A smooth and transparent process',
+  'Active ingredients',
+  'Made in New Zealand',
+  'Active ingredients',
+  'Fix the underline issues',
+  'No parabens, artificial dyes or fragrances',
 ]
 
 </script>
